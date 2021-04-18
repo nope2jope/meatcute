@@ -2,17 +2,118 @@
   background-color: #ff4c68
 }
 
-.web-heading {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 3rem;
-  line-height: 1.5;
-  font-weight: 900;
-}
-
-.container-fluid {
-  padding: 3% 15%
+body {
+  font-family: "Montserrat", sans-serif;
 }
 
 p {
   font-family: 'Ubuntu', sans-serif;
+  color: gray;
+}
+
+h3 {
+  font-size: 1.25rem;
+  font-family: "Montserrat-bold", sans-serif;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 2.25rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+/* navigation */
+
+.navbar {
+  padding-bottom: 2.5rem;
+  font-family: 'Ubuntu', sans-serif;
+
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  color: white;
+  padding: 0 10px;
+  font-size: 1.05rem;
+}
+
+/* title */
+
+.web-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: white;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.titled-mockup {
+  transform: rotate(20deg);
+  width: 60%;
+  height: auto;
+  padding-top: 15%;
+}
+
+.download-buttons {
+  margin: 5% 2.5% 0 0;
+}
+
+/* features */
+
+.callouts {
+  text-align: center;
+  padding: 3% 8%;
+}
+
+.meat-icons {
+  font-size: 2.5em;
+  color: Tomato;
+  margin-bottom: 15px;
+}
+
+.meat-icons:hover {
+  color: brown;
+
+}
+
+/* testimonials */
+
+.testimonials-div {
+  ;
+  text-align: center;
+  background-color: Tomato;
+  color: white;
+}
+
+.ham-shot {
+  width: 10%;
+  height: auto;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.press-section {
+  text-align: center;
+  background-color: Tomato;
+}
+
+.press-logos {
+  width: 15%;
+  margin: 5% 2%;
+
+}
+
+/* keeps arrow buttons visbile */
+.carousel-item {
+  padding: 7% 15%
 }

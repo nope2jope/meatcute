@@ -15,6 +15,7 @@ h3 {
   font-size: 1.25rem;
   font-family: "Montserrat-bold", sans-serif;
   font-weight: bold;
+  margin: 0.5rem auto;
 }
 
 h2 {
@@ -116,4 +117,17 @@ h2 {
 /* keeps arrow buttons visbile */
 .carousel-item {
   padding: 7% 15%
+}
+
+/* pricing */
+
+.card-group {
+  text-align: center;
+  font-family: "Montserrat"
+}
+
+.card {
+  padding: 0;
+  margin: 5px;
+
 }

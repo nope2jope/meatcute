@@ -1,9 +1,8 @@
-
-
 body {
   font-family: "Montserrat", sans-serif;
-  background: rgb(75,6,5);
-  background: linear-gradient(127deg, rgba(75,6,5,1) 0%, rgba(252,70,107,1) 100%);
+  background: rgb(75, 6, 5);
+  background: linear-gradient(127deg, rgba(75, 6, 5, 1) 0%, rgba(252, 70, 107, 1) 100%);
+  text-align: center;
 }
 
 p {
@@ -11,30 +10,36 @@ p {
   color: gray;
 }
 
-h3 {
-  font-size: 1.25rem;
-  font-family: "Montserrat-bold", sans-serif;
+h1, h2, h3 {
+  font-family: "Montserrat";
   font-weight: bold;
-  margin: 0.5rem auto;
 }
 
 h2 {
   font-size: 2.25rem;
-  font-family: "Montserrat", sans-serif;
-  font-weight: bold;
 }
+
+h3 {
+  font-size: 1.25rem;
+}
+
+.white-text {
+  color: white;
+}
+
 
 /* navigation */
 
 .navbar {
   padding-bottom: 2.5rem;
   font-family: 'Ubuntu', sans-serif;
-
 }
+
 .row {
   margin-left: 0;
   margin-right: 0;
 }
+
 .navbar-brand {
   font-family: "Ubuntu", sans-serif;
   font-size: 1.5rem;
@@ -43,24 +48,20 @@ h2 {
 }
 
 .nav-item {
-  color: white;
   padding: 0 10px;
   font-size: 1.05rem;
 }
 
 /* title */
-
-
 .web-heading {
+  text-align: left;
   font-size: 3rem;
   line-height: 1.5;
   font-weight: 900;
-  color: white;
 }
 
 .container-fluid {
   padding: 3% 15% 5%;
-
 }
 
 .titled-mockup {
@@ -76,38 +77,33 @@ h2 {
 }
 
 .title-div {
-  padding-bottom:10%;
+  padding-bottom: 10%;
 }
 
-
 /* features */
-
 .features-div {
   background-color: white;
   position: relative;
   z-index: 1;
 }
 
-.callouts {
-  text-align: center;
+.features-h3 {
+  padding-top: .25rem;
 }
 
 .meat-icons {
   font-size: 2.5em;
   color: Tomato;
-  margin-bottom: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .meat-icons:hover {
   color: brown;
-
 }
 
 /* testimonials */
-
 .testimonials-div {
-  color: white;
-  text-align: center;
   position: relative;
   z-index: 1;
 }
@@ -117,11 +113,6 @@ h2 {
   height: auto;
   border-radius: 50%;
   margin-right: 1rem;
-}
-
-.press-section {
-  text-align: center;
-  background-color: Tomato;
 }
 
 .press-logos {
@@ -139,42 +130,31 @@ h2 {
   padding: 7% 15% 5%;
 }
 
-
 /* pricing */
-
 .pricing-div {
   background-color: white;
-}
-
-.card-group {
-  text-align: center;
-  font-family: "Montserrat"
+  text-align: left;
 }
 
 .card {
   padding: 0;
-  margin: 5px;
-
-}
-
-/* call to action */
-
-.cta-div {
+  margin: 10px;
   text-align: center;
 }
 
+.card-header {
+  padding-top: 10px;
+  text-align: center;
+}
+
+/* call to action */
 .cta-h3 {
-  color: white;
   line-height: 3rem;
-  font-family: "Montserrat";
-  font-weight: bold;
   font-size: 2rem;
 }
 
 /* footer */
-
 .social-buttons {
-  text-align: center;
   background-color: white;
   margin-top: 0;
   padding: 1rem;
@@ -182,30 +162,30 @@ h2 {
   color: Tomato;
 }
 
-
-.footer-p {
-  text-align: center;
-  background-color: white;
-  font-size: 1rem;
-  margin-top: 0;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  margin-bottom: 0;
-}
-
-.button-padding {
+.button-style {
   padding: .75rem 2rem;
   font-size: 2rem;
 }
 
-.button-padding:hover {
+.button-style:hover {
   color: brown;
 }
+
+.footer-p {
+  background-color: white;
+  font-size: 1rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+}
+
 
 /* media queries */
 
 @media (max-width: 995px) {
-  .title-div{
+  .title-div {
     text-align: center;
   }
 
@@ -214,6 +194,5 @@ h2 {
     position: static;
     width: 50%;
     margin-top: 4rem;
-
   }
 }
